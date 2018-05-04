@@ -1,0 +1,17 @@
+.login-box{
+  height: 100%;
+  width: 100%;
+  background: url('http://qy.9gms.net/Areas/Pages/Contents/images/bg.png') center bottom no-repeat fixed rgb(53, 33, 59);
+}
+.login-form{
+  position: absolute;
+  width: 600px;
+  height: 440px;
+  left:50%;
+  top: 50%;
+  margin-left: -300px;
+  margin-top: -220px;
+  background-color: #fff;
+  border: 5px solid #DCDEDD;
+  border-radius: 15px;
+}

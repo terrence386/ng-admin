@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_1475201874_5935967.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_1475201874_5935967.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_1475201874_5935967.woff') format('woff'), /* chromeã€firefox */
+  url('//at.alicdn.com/t/font_1475201874_5935967.ttf') format('truetype'), /* chromeã€firefoxã€operaã€Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_1475201874_5935967.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.textc{
+	text-align: center
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.por{
+	position: relative;
+}
+.poa{
+	position: absolute;
+}
+.ovh{
+	overflow: hidden;
+}
+.mt15{
+	margin-top:15px;
+}
+.mb15{
+	margin-bottom:15px;
+}
+.pt15{
+	padding-top:15px;
+}
+.pb15{
+	padding-bottom:15px;
+}
+                    
