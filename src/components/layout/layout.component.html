@@ -4,5 +4,11 @@
 	<adm-loginout></adm-loginout>
 </div>
 <div class="layout-main">
-	<router-outlet></router-outlet>
+	<div class="user-type">
+		<div class="fl">{{userType.type}}</div>
+		<div class="fr feedBack"><i class="iconfont">&#xe665;</i>{{feedBack.text}}</div>
+	</div>
+	<div class="container">
+		<router-outlet></router-outlet>
+	</div>
 </div>

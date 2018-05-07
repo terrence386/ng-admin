@@ -1,15 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 @font-face {
   font-family: 'iconfont';  /* project id 654786 */
-  src: url('//at.alicdn.com/t/font_654786_eegq23iakluqsemi.eot');
-  src: url('//at.alicdn.com/t/font_654786_eegq23iakluqsemi.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_654786_eegq23iakluqsemi.woff') format('woff'),
-  url('//at.alicdn.com/t/font_654786_eegq23iakluqsemi.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_654786_eegq23iakluqsemi.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_654786_j4paj7jwgn9udi.eot');
+  src: url('//at.alicdn.com/t/font_654786_j4paj7jwgn9udi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_654786_j4paj7jwgn9udi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_654786_j4paj7jwgn9udi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_654786_j4paj7jwgn9udi.svg#iconfont') format('svg');
 }
 *{
 	margin:0;
 	padding: 0;
+	box-sizing: border-box;
 }
 .iconfont{
     font-family:"iconfont" !important;
@@ -20,6 +21,9 @@
   }
 .textc{
 	text-align: center
+}
+.textl{
+	text-align: left;
 }
 .fl{
 	float: left;
@@ -71,4 +75,33 @@
 }
 .black{
 	color: #212121
+}
+/* 字体 */
+.fs12{
+	font-size: 12px;
+}
+.fs14{
+	font-size: 14px;
+}
+.fs16{
+	font-size: 16px;
+}
+.fs18{
+	font-size: 18px;
+}
+.fs20{
+	font-size: 20px;
+}
+.fs22{
+	font-size: 22px;
+}
+
+/* 宽度定义 */
+.width33{
+	width:29.333333%;
+	margin-left:4%;
+	float: left;
+}
+.width50{
+	width:50%;
 }

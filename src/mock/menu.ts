@@ -1,4 +1,5 @@
-export const menus: menus[] = [
+import { menus } from './menus'
+export const Menus:menus[] = [
   { id: 11, name: '数据中心' },
   { id: 12, name: '个人设置' },
   { id: 13, name: '更改规划' },

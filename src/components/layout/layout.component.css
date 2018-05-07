@@ -1,9 +1,27 @@
-.layout-left{ width:200px; 
-							float:left; 
-							height:100%; 
+.layout-left{ 
+	width:200px; 
+	float:left; 
+	height:100%; 
 							/*background:#99F;*/
 }
 .layout-main{ 
 	height:100%;
 	margin-left: 200px;
+	padding:15px;
+	background: #F8F9FB;
+}
+.user-type{
+	color: #212121;
+	font-size: 16px;
+	padding: 5px;
+	color: #58585A;
+	overflow: hidden;
+}
+.user-type .iconfont{
+	margin-right: 10px;
+}
+.user-type .feedBack{
+	padding:5px 15px;
+	border-radius: 5px;
+	background-color: #fff;
 }

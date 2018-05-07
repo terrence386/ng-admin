@@ -1,0 +1,19 @@
+.user-count-top-item{
+  background-color: #fff;
+  border-radius: 5px;
+  height: 150px;
+  padding: 0 15px;
+}
+.title{
+  height: 55px;
+  line-height: 55px;
+  border-bottom: 3px solid #e6e6e6;
+  text-align: left;
+}
+#progress{
+  margin:5px;
+}
+.nf-chart{
+  height: 80px;
+  width:80px;
+}

@@ -12,6 +12,10 @@ import { Avator } from '../components/avator/avator.component'
 import { LoginOut } from '../components/loginOut/loginout.component'
 import { Menu } from '../components/menu/menu.component'
 import { DataCenter } from '../components/dataCenter/datacenter.component'
+import { UserCount }  from '../components/dataCenter/usercount/usercount.component'
+import { Account } from '../components/dataCenter/account/account.component'
+import { UseStatic } from '../components/dataCenter/usestatic/usestatic.component'
+import { EChartOptionDirective1 } from '../components/dataCenter/usestatic/echart-optoin.directive'
 
 
 
@@ -24,7 +28,11 @@ import { DataCenter } from '../components/dataCenter/datacenter.component'
     Avator,
     LoginOut,
     Menu,
-    DataCenter
+    DataCenter,
+    UserCount,
+    Account,
+    UseStatic,
+    EChartOptionDirective1
     // AppRoutingModule,
     
   ],
